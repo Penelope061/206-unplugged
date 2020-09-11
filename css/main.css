@@ -87,6 +87,212 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+/* ------- Base Header - Footer Style -------- */
+
+header,
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap; 
+	
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .social-icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer .social-icons p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	
+
+
+/* ----- MOBILE STYLE --- HOMEPAGE ----- */
+
+/* HERO AREA */
+
+.hero-area {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.header-divider {
+	
+}
+
+/* ASIDE */
+aside {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	flex-flow: row wrap; 
+}
+
+
+/* FEATURES */
+
+.features {
+	display: flex;
+	justify-content: center; 
+	flex-flow: row wrap;
+}
+
+.features .feature-items {
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+
+/* REVIEWS */
+
+.reviews {
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+}
+
+.form-description {
+	
+}
+
+.form {
+	
+}
+
+.feature-item-description {
+	
+}
+
+.feature p {
+	
+}
+
+.fontawesome-icon {
+	
+}
+
+
+
+.reviews .content-wrapper {
+	
+}
+
+.reviews p {
+	
+}
+/* --- ABOUT PAGE  --- */
+.mission {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;	
+}
+
+.contact-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap; 
+}
+
+.mission .content-wrapper {
+	
+}
+
+.mission .mission-content {
+	/*display: flex;*/
+}
+
+.mission .map {
+	
+}
+
+
+
+.contact-section .contact-wrapper {
+	
+}
+
+.contact-section .contact-content {
+
+}
+
+/* --- FAQ --- */
+
+.faq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.faq .faq-content {
+
+}
+
+/* --- FOOTER --- */
+
+
+footer .content-wrapper {
+	
+}
+
+.footer-content {
+	
+}
+
+.contact {
+	
+}
+
+footer .social {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+
+
+.copyright {
+	
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
