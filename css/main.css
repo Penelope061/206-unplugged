@@ -120,7 +120,7 @@ h3,
 h4 {
  	font-family: 'Poppins', sans-serif;
 	font-size: 1.125em;
-	font-weight: 400;
+	font-weight: 500;
 	margin: 20px 0;
 }
  
@@ -131,10 +131,12 @@ p {
 }
  
 img {
+	width: 100%;
  
 }
  
 figure {
+	margin: 0;
  
 }
  
@@ -169,6 +171,14 @@ header .content-wrapper {
 	align-items: center;
 	flex-flow: row wrap;
 	margin: 0;
+}
+
+header figure {
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 .header-divider {
@@ -243,6 +253,9 @@ footer .copyright {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+	background: url('../img/unplugged-hero-image.jpg') no-repeat center #333;
+	background-size: cover;
+	min-height: 600px;
 }
 
 .hero-area h1 {
@@ -294,7 +307,8 @@ input[type=button] {
 	display: flex;
 	justify-content: center; 
 	flex-flow: row wrap;
-	
+	background: url('../img/features-bg.jpg') no-repeat center #333;
+	background-size: cover;	
 }
 
 .features h2 {
@@ -315,6 +329,7 @@ input[type=button] {
 
 .features p {
 	margin: 0;
+	text-align: center;
 }
 
 /* REVIEWS */
@@ -332,7 +347,7 @@ input[type=button] {
 }
 
 .reviews h3 {
-	width: 50%;
+	width: 55%;
 	margin: 20px 0
 }
 
@@ -487,12 +502,12 @@ input[type=button] {
         margin: 100px 0;
     }
 	
-	  h2 {
+	h2 {
     font-size: 2.25em;
     line-height: 1.333;
 	}
 
-		h3 {
+	h3 {
     font-size: 1.5em;
     line-height: 1.25;
 	}
@@ -501,7 +516,6 @@ input[type=button] {
 	 header {
 		 justify-content: space-around;
 		 padding: 33px 0;
- 
     }
  
     header .content-wrapper {
@@ -514,7 +528,7 @@ input[type=button] {
 	}
 	
     header nav {
-        width: 20%
+        width: 20%;
     }
  
     header nav ul {
@@ -527,11 +541,13 @@ input[type=button] {
 
 	
 	 /* Hero Area */
+	
  	.hero-area h1 {
     font-size: 3em;
     line-height: 1;
-     margin: 0;
+    margin: 0;
 	}
+	
     /* Aside */
     aside .content-wrapper {
         margin: 50px 0;
@@ -567,18 +583,19 @@ input[type=button] {
     }
 	
 	 /* Reviews */
+	
     .reviews article {
 		display: flex;
 		justify-content: space-between;
- 
     }
-	
+
 	.reviews h2 {
     width: 85%;
   	}
     
-    .reviews article div {
-        width:   49%; 
+    .reviews article figure,
+	.reviews article div {
+    width:   49%; 
     }
 	
 	 .reviews h3 {
@@ -700,7 +717,7 @@ input[type=button] {
  /* Hero Area */
 	.hero-area h1 {
 		font-size: 3.75em;
-    	width: 60%;
+    	width: 80%;
     }
  
     /* Aside */
@@ -737,6 +754,7 @@ input[type=button] {
 	
 	 /* Reviews */
 	
+
 	.reviews h2 {
     padding-bottom: 50px; 
   }
